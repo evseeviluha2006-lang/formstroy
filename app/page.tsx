@@ -176,13 +176,13 @@ const PORTFOLIO_COLLAGE = [
 ] as const;
 
 const CONTACTS = {
-  phone: "+7 (996) 029-45-87",
-  phoneHref: "tel:+79960294587",
+  phone: "+7 (909) 793-30-00",
+  phoneHref: "tel:+79097933000",
   address: "г. Калининград, ул. Эпроновская, 12",
   mapHref:
     "https://yandex.ru/maps/?text=%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%AD%D0%BF%D1%80%D0%BE%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%2C%2012",
   telegramHref: "https://t.me/favoritstroy",
-  whatsappHref: "https://wa.me/79960294587",
+  whatsappHref: "https://wa.me/79097933000",
   inn: "390103822103",
 } as const;
 
