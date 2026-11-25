@@ -992,7 +992,6 @@ function Portfolio() {
               lastTriggerRef.current = event.currentTarget;
               setIsGalleryOpen(true);
             }}
-            aria-label={`Открыть галерею работ: ${WORKS.length} фотографий`}
             className="group relative mt-6 block w-full overflow-hidden border border-bone/15 bg-ink text-left"
           >
             <div
@@ -1774,7 +1773,7 @@ function Footer() {
             <p className="mt-4 max-w-xs text-sm leading-6 text-bone/55">
               {CONTACTS.address}
             </p>
-            <p className="mt-2 max-w-xs font-mono text-[9px] uppercase tracking-[0.14em] text-bone/40">
+            <p className="mt-2 max-w-xs font-mono text-[9px] uppercase tracking-[0.14em] text-bone/60">
               ИНН {CONTACTS.inn}
             </p>
           </div>

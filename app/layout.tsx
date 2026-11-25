@@ -23,6 +23,10 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.favoritstroy.online"),
+  alternates: {
+    canonical: "/",
+  },
   title: "Фаворит-Строй — отделочная компания в Калининграде",
   description:
     "Отделочная компания «Фаворит-Строй»: качественный ремонт квартир и коммерческих объектов под ключ. Более 10 лет на рынке, 100% соблюдение сроков по договору.",
